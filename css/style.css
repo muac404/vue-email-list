@@ -1,0 +1,80 @@
+body{
+    
+}
+.container{
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    background-color: #001533;
+    border-radius: 40px;
+    padding: 20px 5px;
+}
+li{
+    color: #00e165;
+    
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+ul{
+    padding-left: 0;
+}
+
+h2{
+    color: white;
+    text-align: center;
+   
+}
+
+h4{
+    color: #001533;
+}
+
+h5{
+    text-align: right;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+}
+
+
+.header-logo img{
+    width: 100%;
+}
+
+.header-logo{
+    max-width: 300px;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+}
+
+.o-color{
+    color: #00e165;
+    font-weight: 700;
+    
+}
+
+.partners img{
+    width: 100%;
+}
+
+.javascript-box{
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.vue-box{
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.vs-box{
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

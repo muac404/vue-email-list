@@ -16,7 +16,39 @@
     </head>
     <body>
         
-        <div id="app">{{ message }}</div>
+        <div id="app">
+            <div class="header-logo">
+                <img src="img/logo.png" alt="logo-boolean">
+                <h5 class="text-right">@muac <span class="o-color">404</span></h5>
+            </div>
+            <div class="container">
+               
+                <h2>tenRand<span class="o-color">o</span>mMails</h2>
+                <div class="items">
+                    <ul>
+                        <li v-for="email in emails">{{email}}</li>
+                    </ul>
+                </div>
+            </div>
+
+            <footer>
+                <h4 class="text-center mt-3">ourPartners</h4>
+                <div class="partners d-flex justify-content-center align-items-center ">
+
+                    <div class="javascript-box">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="js-logo">
+                    </div>
+                    <div class="vue-box">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/555px-Vue.js_Logo_2.svg.png" alt="vue-logo">
+                    </div>
+                    <div class="vs-box">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" alt="vs-logo">
+                    </div>
+                    
+                </div>
+            </footer>
+
+        </div>
 
         <script src="js/main.js"></script>
     </body>
